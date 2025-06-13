@@ -1,0 +1,33 @@
+.default {
+    padding: 160px 0;
+}
+
+.inner {
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+.default .title h2 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    color: #1c5b62;
+}
+
+.default .title strong {
+    font-size: 40px;
+    line-height: 48px;
+}
+
+@media (max-width :768px) {
+    .default .title h2 {
+        margin-bottom: 24px;
+        font-size: 20px;
+        line-height: 24px;
+        color: #1c5b62;
+    }
+
+    .default .title strong {
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
