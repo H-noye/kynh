@@ -42,6 +42,7 @@ $(function () {
             disableOnInteraction: false,
         },
         effect: "fade",
+        speed: 1500
     });
 
     const sup_slide = new Swiper('.sup_slide', {
